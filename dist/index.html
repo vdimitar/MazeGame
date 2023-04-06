@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+	<TITLE>Spēle</TITLE>
+	<LINK rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+</HEAD>
+<BODY>
+	<div id="container">
+		<div id="world"></div>
+		<div id="pawn"></div>
+		<div class = "widget" id = "widget1"></div>
+		<div class = "widget" id = "widget2"></div>
+		<div class = "widget" id = "widget3"></div>
+		<div class = "menu" id = "menu1" style = "display:block;">
+			<div id="button1" class="button">
+				<p>Sākt spēli</p>
+			</div>
+			<div id="button2" class="button">
+				<p>Pamācība</p>
+			</div>
+		</div>
+		<div class = "menu" id = "menu2">
+			<p style="font-size:30px; top:200px">
+				<strong>Vadība:</strong> <br>
+				w - uz priekšu <br>
+				s - augšā <br>
+				d - pa labi <br>
+				a - pa kreisi <br>
+				<strong>Uzdevums:</strong> <br>
+				Paņemt sarkano kvadrātu un atrast zilo
+			</p>
+			<div id="button3" class="button">
+				<p>Atpakaļ</p>
+			</div>
+		</div>
+		<div class = "menu" id = "menu3">
+			<p id = "result" style="top:100px"></p>
+			<div id="button4" class="button">
+				<p>Atgriezties</p>
+			</div>
+		</div>
+	</div>
+</BODY>
+</HTML>
+<script type="module" src="../src/script.js"></script>
+<script src="../src/menu.js"></script>
